@@ -1,11 +1,4 @@
-* {
-    outline: red solid 1px;
-    padding: 0;
-    margin: 0;
-
-}
-
-body {
+.body {
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
@@ -52,6 +45,8 @@ body {
     justify-content: center;
     margin-right: 49px;
 }
+
+
 
 .item {
     border-radius: 5px;
@@ -146,7 +141,7 @@ body {
 
 .carousel-inner {
     width: 100%;
-    height: 100%;
+    height: 120%;
 }
 
 .carousel {
@@ -176,7 +171,7 @@ body {
 /* baner2 */
 
 .secttion__baner2 {
-    margin-top: 105px;
+    margin-top: 237px;
     width: 100%;
     height: 1041px;
     background: var(--naranja, #B79A1D);
@@ -191,21 +186,19 @@ body {
 }
 
 .baner__content__img__principal {
-    width: 580px;
-    height: 935px;
+
     flex-shrink: 0;
     margin-left: 40px;
-    border-radius: 25px;
+
     border: 4px solid #FFF;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .baner__content__img {
-    width: 276px;
-    height: 250px;
+
     flex-shrink: 0;
     margin: 30px;
-    border-radius: 25px;
+
     border: 4px solid #FFF;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -238,6 +231,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding-right: 5%;
 }
 
 .detalles-container a {
@@ -321,6 +315,14 @@ body {
     flex-shrink: 0;
     border-radius: 50%;
     background-color: #ADABAB;
+    object-fit: cover;
+}
+
+.section__content__item__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .section__content__item__title {
@@ -335,6 +337,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-right: 50%;
 }
 
 
